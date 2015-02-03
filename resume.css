@@ -1,0 +1,298 @@
+div {
+	border-radius: 5px;
+}
+
+.overview {
+    position: relative;
+    height:150px;
+}	
+	
+#top {
+	clear:both;
+	position:relative;
+	top: 40px;
+	width: 1330px;
+	height: auto;
+}
+
+#top ul {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}	
+
+#top ul li {
+	list-style-type: none;
+	float:left;
+	border-bottom: 1px dotted black;
+	height:50px;
+}
+
+#top ul li a:link,a:visited {
+     display: block;
+	width: auto;
+	height:auto;
+	margin-right:25px;
+	margin-left:25px;
+	text-align:center;
+	font-family: Railway, sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	position:relative;
+}
+
+li.home {
+	transition: background .25s ease-in-out;
+    -moz-transition: background .25s ease-in-out;
+    -webkit-transition: background .15s ease-in-out;
+    background: white;
+    border-right:1px solid black;
+    font-size:35px;
+    text-shadow: 2px 2px 4px rgba(67, 184, 51, 0.45);
+}
+
+li.home:hover {
+    background: #99FFC6;
+}
+
+li.home a {
+    color:#0284FF;
+    padding-top:5px;
+}
+
+li.home a:hover {
+    color: white;
+    font-size: 17;
+}
+
+li.experience {
+	transition: background .25s ease-in-out;
+    -moz-transition: background .25s ease-in-out;
+    -webkit-transition: background .15s ease-in-out;
+    background: white;
+    border-right:1px solid black;
+}
+
+li.experience:hover {
+    background: #0284FF;
+}
+
+li.experience a {
+    color: black;
+    padding-top:15px;
+}
+
+li.experience a:hover {
+    color: white;
+    font-size: 17;
+}
+
+li.borderright {
+    border-right:1px solid black;
+    transition: background .25s ease-in-out;
+    -moz-transition: background .25s ease-in-out;
+    -webkit-transition: background .15s ease-in-out;
+    background: #fff;
+}
+
+li.borderright:hover {
+    background: #99FFC6;
+}
+
+li.borderright a {
+    color: black;
+    padding-top:15px;
+}
+
+li.borderright a:hover {
+    color: white;
+    font-size: 17;
+}
+
+
+li.borderleft {
+    transition: background .25s ease-in-out;
+    -moz-transition: background .25s ease-in-out;
+    -webkit-transition: background .15s ease-in-out;
+    background: #fff;
+}
+
+li.borderleft:hover {
+    background: #99FFC6
+}
+
+li.borderleft a {
+    color: black;
+    padding-top:15px;
+}
+
+li.borderleft a:hover {
+    color: white;
+    font-size: 17;
+}
+
+    
+#body {
+    position: relative;
+    left: 45px;
+    top:-10px;
+    width:800px;
+}
+
+#body li {
+  text-align:justify;
+}
+
+.arrow li {
+    background-image: url(http://www.christineschoellhorn.com/Picture-arrow.png);
+    background-repeat: no-repeat;
+    position: relative;
+    left: -50px;
+    vertical-align: text-top;
+    list-style-type: none;
+    padding-left: 19px;
+    height: 25px;
+    padding-top: 5px;
+    text-indent: 19px;
+    font-family: railways;
+    font-size: 19px;
+    margin-top: 30px;
+    bottom: -10px;
+    cursor: pointer;
+}
+
+
+.heading {
+    left: 35px;
+    position: relative;
+    font-weight: normal;
+    font-size: 35px;
+    font-family: railway;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.33);
+    border-bottom: 1px dotted black;
+    border-radius: 1px;
+    height: 45px;
+    width: 80%;
+    top:20px;
+}
+
+.heading2 {
+    position: relative;
+    font-weight: normal;
+    font-size: 25px;
+    font-family: railway;
+    left: -8px;
+    text-shadow: 1px 2px 3px rgba(162, 153, 228, 0.68);
+    color: #0284FF;
+    padding-top: 20px;
+    height: 60px;
+}
+
+
+p.indent {
+    padding-top:20px;
+}
+
+p.justify {
+    padding-top:20px;
+    text-align:justify;
+}
+
+.education {
+    position: relative;
+    left: 45px;
+    top: 30px;
+    font-family:railways;
+    margin-bottom:60px;
+    width:800px;
+}
+.skills {
+    position: relative;
+    left: 45px;
+    top: 30px;
+    font-family:railways;
+}
+
+.skills li{
+list-style-type: none;
+position: relative;
+background-repeat: no-repeat;
+height: 27px;
+padding-top: 6px;
+}
+
+.skills p{
+    border-bottom: 1px dashed black;
+    width: 30%;
+}
+
+.skills h3{
+    text-transform:uppercase;
+}
+
+.oneStar{
+    background-image: url(http://www.christineschoellhorn.com/Picture-star1.png);
+    padding-left: 35px;
+}
+
+.twoStars{
+    background-image: url(http://www.christineschoellhorn.com/Picture-star2.png);
+    padding-left: 70px;
+}
+
+.threeStars{
+    background-image: url(http://www.christineschoellhorn.com/Picture-star3.png);
+    padding-left: 105px;
+}
+
+.fourStars{
+    background-image: url(http://www.christineschoellhorn.com/Picture-star4.png);
+    padding-left: 135px;
+}
+
+
+#footer {
+	position: relative;
+	width:100%;
+	top:100px;
+	height: 35px;
+	clear: both;
+	font-family: Railway, sans-serif;
+	font-size: 12px;
+	text-align: center;
+	border-top: 2px ridge #FF009E;
+	border-radius:1px;
+}
+
+#footer p {
+	position: relative;
+}
+
+
+h4 {
+	font-family: Railway, sans-serif;
+    font-weight: normal;
+    padding-left: 25px;
+    height: 30px;
+    margin: 5px;
+}
+
+h3 {
+	font-family: Railway, sans-serif;
+    font-weight: normal;
+    height: 30px;
+    top: 10px;
+    position: relative;
+    font-size: 18px;
+    cursor:pointer;
+}
+
+
+.ui-state-focus:focus { 
+    outline:none 
+}
+
+.arrow.ui-accordion-header-active li{ 
+    background-image: url(http://www.christineschoellhorn.com/Picture-arrow.down.png);
+}
+
