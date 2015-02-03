@@ -1,0 +1,262 @@
+div {
+	border-radius: 5px;
+}
+
+.overview {
+    position: relative;
+    height:150px;
+}	
+	
+#top {
+	clear:both;
+	position:relative;
+	top: 40px;
+	width: 1330px;
+	height: auto;
+}
+
+#top ul {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}	
+
+#top ul li {
+	list-style-type: none;
+	float:left;
+	border-bottom: 1px dotted black;
+	height:50px;
+}
+
+#top ul li a:link,a:visited {
+     display: block;
+	width: auto;
+	height:auto;
+	margin-right:25px;
+	margin-left:25px;
+	text-align:center;
+	font-family: Raleway, sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	position:relative;
+}
+
+li.home {
+	transition: background .25s ease-in-out;
+    -moz-transition: background .25s ease-in-out;
+    -webkit-transition: background .15s ease-in-out;
+    background: white;
+    border-right:1px solid black;
+    font-size:35px;
+    text-shadow: 2px 2px 4px rgba(67, 184, 51, 0.45);
+}
+
+li.home:hover {
+    background: #99FFC6;
+}
+
+li.home a {
+    color:#0284FF;
+    padding-top:5px;
+}
+
+li.home a:hover {
+    color: white;
+    font-size: 17;
+}
+
+li.borderright {
+    border-right:1px solid black;
+    transition: background .25s ease-in-out;
+    -moz-transition: background .25s ease-in-out;
+    -webkit-transition: background .15s ease-in-out;
+    background: #fff;
+}
+
+li.borderright:hover {
+    background: #99FFC6;
+}
+
+li.borderright a {
+    color: black;
+    padding-top:15px;
+}
+
+li.borderright a:hover {
+    color: white;
+    font-size: 17;
+}
+
+li.borderleftexperience {
+	transition: background .25s ease-in-out;
+    -moz-transition: background .25s ease-in-out;
+    -webkit-transition: background .15s ease-in-out;
+    background: white;
+}
+
+li.borderleftexperience:hover {
+    background: #0284FF;
+}
+
+li.borderleftexperience a {
+    color: black;
+    padding-top:15px;
+}
+
+li.borderleftexperience a:hover {
+    color: white;
+    font-size: 17;
+}
+
+#hi p {
+position: relative;
+font-family: Raleway, sans-serif;
+font-size: 2em;
+display: block;
+line-height: 2em;
+margin-left: 30px;
+text-shadow: -1px -1px 0px rgba(255,255,255,0.3), 1px 1px 0px rgba(0,0,0,0.8);
+color: #333;
+opacity: 0.4;
+width: 1200px;
+}
+
+#body {
+    position: relative;
+    height: auto;
+    top:30px;
+}
+
+#body li {
+	list-style-type: square;
+}
+
+
+.right {
+float: right;
+width: 25%;
+height: 350px;
+right: 8%;
+position: relative;
+top: 8px;
+}
+
+
+.right img {
+position: absolute;
+height:300px;
+top: 15px;
+-webkit-transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+
+.right img.picturetop:hover {
+  opacity:0;
+}
+
+img.picturebottom {
+    border: 1px inset #0284FF
+}
+
+img.picturetop {
+    border: 1px inset #0284FF;
+}
+
+
+
+.left {
+float: left;
+height: 400px;
+width: 340px;
+margin-left: 45px;
+position: absolute;
+background-color: white;
+z-index: 1;
+top: 20px;
+}
+
+#text {
+    margin-right: 50px;
+    margin-left: 10px;
+    position:relative;
+    top:-15px;
+}
+
+h3 {
+	margin-bottom: 15px;
+    font-family: Raleway, sans-serif;
+    font-weight: normal;
+    font-size: 25px;
+    top: -55px;
+}
+
+.mail {
+  position: relative;
+  opacity: 0.7;
+}
+
+
+.mail a:link, a:visited {
+     text-decoration:none;
+	font-family: Raleway, sans-serif;
+	color:Black;
+}
+
+a.mail:hover {
+    color: #00FFFF;
+}
+
+.mail1 {
+    position: relative;
+    height: 60px;
+    width: 400px;
+    background-image: url(http://www.christineschoellhorn.com/Picture-pinkArrow.png);
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+}
+
+.mailtext {
+  position: absolute;
+  padding-top: 25px;
+  top: -30px;
+  left: 45px;
+  right: 0;
+  color: #0284FF;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: visibility opacity 0.2s;
+}
+
+.mail1:hover .mailtext {
+  visibility: visible;
+  opacity: 1;
+}
+
+#footer {
+    position: relative;
+    height: 35px;
+    clear: both;
+    top: 150px;
+    font-family: Raleway, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    border-top: 2px ridge #FF009E;
+    width: 100%;
+    border-radius: 1px;
+}
+
+#footer p {
+	position: relative;
+	padding-top: 5px;
+}
+
+
+h5 {
+	margin-left: 5px;
+	font-family: Raleway, sans-serif;
+}
+
+
