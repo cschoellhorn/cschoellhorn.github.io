@@ -220,13 +220,15 @@ a.mail:hover {
 
 .mailtext {
   position: absolute;
-  padding-top: 25px;
+  padding-top: 20px;
   top: -30px;
   left: 45px;
   right: 0;
   color: #0284FF;
   visibility: hidden;
   opacity: 0;
+  font-size: 20px;
+  font-family: Raleway;
   -webkit-transition: visibility opacity 0.2s;
 }
 
