@@ -1,54 +1,48 @@
-div {
-	border-radius: 5px;
-}
-
-.overview {
+overview {
     position: relative;
-    height:150px;
-}	
-	
+    height:120px;
+} 
+  
 #top {
-	clear:both;
-	position:relative;
-	top: 40px;
-	width: 1330px;
-	height: auto;
+  clear:both;
+  position:relative;
+  top: 40px;
+  width: 1330px;
+  height: auto;
 }
 
 #top ul {
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-}	
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+} 
 
 #top ul li {
-	list-style-type: none;
-	float:left;
-	border-bottom: 1px dotted black;
-	height:50px;
+  list-style-type: none;
+  float:left;
+  height:50px;
+    border-bottom: 1px solid white;
 }
 
-#top ul li a:link,a:visited {
-     display: block;
-	width: auto;
-	height:auto;
-	margin-right:25px;
-	margin-left:25px;
-	text-align:center;
-	font-family: Raleway, sans-serif;
-	text-decoration: none;
-	text-transform: uppercase;
-	position:relative;
+#top ul li a:link, a:visited {
+    display: block;
+  width: auto;
+  height:auto;
+  margin-right:25px;
+  margin-left:25px;
+  text-align:center;
+  font-family: Raleway, sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  position:relative;
 }
 
 li.home {
-	transition: background .25s ease-in-out;
+  transition: background .25s ease-in-out;
     -moz-transition: background .25s ease-in-out;
     -webkit-transition: background .15s ease-in-out;
     background: white;
-    border-right:1px solid black;
-    font-size:35px;
-    text-shadow: 2px 2px 4px rgba(67, 184, 51, 0.45);
+    border-right:1px dotted black;
 }
 
 li.home:hover {
@@ -58,15 +52,18 @@ li.home:hover {
 li.home a {
     color:#0284FF;
     padding-top:5px;
+    font-size:35px;
+    text-shadow: 2px 2px 4px rgba(67, 184, 51, 0.45);
 }
 
 li.home a:hover {
-    color: white;
+    text-shadow: -1px -1px 0px rgba(255, 255, 255, 1), .5px 1px 0px rgba(207, 207, 207, 0.8);
+    color: #8A8A8A;
     font-size: 17;
 }
 
 li.borderright {
-    border-right:1px solid black;
+    border-right:1px dotted black;
     transition: background .25s ease-in-out;
     -moz-transition: background .25s ease-in-out;
     -webkit-transition: background .15s ease-in-out;
@@ -75,36 +72,41 @@ li.borderright {
 
 li.borderright:hover {
     background: #99FFC6;
+    color: white;
 }
 
-li.borderright a {
-    color: black;
-    padding-top:15px;
+li.borderright a{
+    padding-top: 15px;
+    text-shadow: -1px -1px 0px rgba(255, 255, 255, 1), .5px 1px 0px rgba(207, 207, 207, 0.8);
+    color: #8A8A8A;
 }
 
 li.borderright a:hover {
-    color: white;
     font-size: 17;
+    color: #7A7A7A;
 }
 
-li.borderleftexperience {
-	transition: background .25s ease-in-out;
+
+li.borderleft {
+    transition: background .25s ease-in-out;
     -moz-transition: background .25s ease-in-out;
     -webkit-transition: background .15s ease-in-out;
-    background: white;
+    background: #fff;
 }
 
-li.borderleftexperience:hover {
-    background: #0284FF;
-}
-
-li.borderleftexperience a {
-    color: black;
-    padding-top:15px;
-}
-
-li.borderleftexperience a:hover {
+li.borderleft:hover {
+    background: #99FFC6;
     color: white;
+}
+
+li.borderleft a {
+    padding-top: 15px;
+    text-shadow: -1px -1px 0px rgba(255, 255, 255, 1), .5px 1px 0px rgba(207, 207, 207, 0.8);
+    color: #8A8A8A;
+}
+
+li.borderleft a:hover {
+    color: #7A7A7A;
     font-size: 17;
 }
 
@@ -119,6 +121,7 @@ text-shadow: -1px -1px 0px rgba(255,255,255,0.3), 1px 1px 0px rgba(0,0,0,0.8);
 color: #333;
 opacity: 0.4;
 width: 1200px;
+top:40px;
 }
 
 #body {
@@ -144,8 +147,7 @@ top: 8px;
 
 .right img {
 position: absolute;
-height:300px;
-top: 15px;
+height:250px;
 -webkit-transition: opacity .25s ease-in-out;
   -moz-transition: opacity .25s ease-in-out;
   -o-transition: opacity 1s ease-in-out;
