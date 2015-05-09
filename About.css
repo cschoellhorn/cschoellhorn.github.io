@@ -218,15 +218,20 @@ p.justify {
     top: 25%;
     font-family: Raleway, sans-serif;
     font-size: 12px;
-    text-align: center;
     border-top: 2px ridge #FF009E;
     width: 100%;
     border-radius: 1px;
 }
 
 #footer p {
-	position: relative;
-	padding-top: 5px;
+    position: relative;
+    padding-top: 5px;
+    margin-left:45px;
+}
+
+#twitter {
+    margin-right: 80%;
+    margin-top: 1%;
 }
 
 
